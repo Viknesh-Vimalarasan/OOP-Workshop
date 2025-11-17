@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\OOP-Workshop\\OOP-Workshop.csproj": {}
+    "C:\\Github\\OOP-Workshop\\src\\MyApp.csproj": {}
   },
   "projects": {
-    "C:\\Github\\OOP-Workshop\\OOP-Workshop.csproj": {
+    "C:\\Github\\OOP-Workshop\\src\\MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\OOP-Workshop\\OOP-Workshop.csproj",
-        "projectName": "OOP-Workshop",
-        "projectPath": "C:\\Github\\OOP-Workshop\\OOP-Workshop.csproj",
+        "projectUniqueName": "C:\\Github\\OOP-Workshop\\src\\MyApp.csproj",
+        "projectName": "MyApp",
+        "projectPath": "C:\\Github\\OOP-Workshop\\src\\MyApp.csproj",
         "packagesPath": "C:\\Users\\magnu\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\OOP-Workshop\\obj\\",
+        "outputPath": "C:\\Github\\OOP-Workshop\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,28 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.3.8, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.3.8, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.3.8, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.3.8, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.3.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
