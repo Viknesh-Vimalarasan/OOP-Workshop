@@ -1,3 +1,4 @@
 src/bin/*
 /src/obj
 /test/obj
+/src/obj/Debug
