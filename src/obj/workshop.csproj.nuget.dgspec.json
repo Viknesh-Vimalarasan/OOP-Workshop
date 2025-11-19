@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vikne\\Nextcloud\\1. Semester\\OOP-Workshop\\test\\test.csproj": {}
+    "C:\\Users\\vikne\\Nextcloud\\1. Semester\\OOP-Workshop\\src\\workshop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vikne\\Nextcloud\\1. Semester\\OOP-Workshop\\test\\test.csproj": {
+    "C:\\Users\\vikne\\Nextcloud\\1. Semester\\OOP-Workshop\\src\\workshop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vikne\\Nextcloud\\1. Semester\\OOP-Workshop\\test\\test.csproj",
-        "projectName": "test",
-        "projectPath": "C:\\Users\\vikne\\Nextcloud\\1. Semester\\OOP-Workshop\\test\\test.csproj",
+        "projectUniqueName": "C:\\Users\\vikne\\Nextcloud\\1. Semester\\OOP-Workshop\\src\\workshop.csproj",
+        "projectName": "workshop",
+        "projectPath": "C:\\Users\\vikne\\Nextcloud\\1. Semester\\OOP-Workshop\\src\\workshop.csproj",
         "packagesPath": "C:\\Users\\vikne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vikne\\Nextcloud\\1. Semester\\OOP-Workshop\\test\\obj\\",
+        "outputPath": "C:\\Users\\vikne\\Nextcloud\\1. Semester\\OOP-Workshop\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vikne\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,25 +44,25 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
+            "Avalonia": {
               "target": "Package",
-              "version": "[17.12.0, )"
+              "version": "[11.3.8, )"
             },
-            "NUnit": {
+            "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[4.2.2, )"
+              "version": "[11.3.8, )"
             },
-            "NUnit.Analyzers": {
+            "Avalonia.Diagnostics": {
               "target": "Package",
-              "version": "[4.4.0, )"
+              "version": "[11.3.8, )"
             },
-            "NUnit3TestAdapter": {
+            "Avalonia.Fonts.Inter": {
               "target": "Package",
-              "version": "[4.6.0, )"
+              "version": "[11.3.8, )"
             },
-            "coverlet.collector": {
+            "Avalonia.Themes.Fluent": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[11.3.8, )"
             }
           },
           "imports": [
