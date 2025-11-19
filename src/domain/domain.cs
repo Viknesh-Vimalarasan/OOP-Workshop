@@ -1,4 +1,4 @@
-namespace Domain {
+namespace Workshop.Domain {
 
         class IDomain {
             
@@ -19,12 +19,7 @@ namespace Domain {
             
         }
 
-        class Product {
-	        public int id;
-	        public string title;
-            bool isAvailable;
-			Review[] reviews;
-        }
+        
 
         class Movie {
 	        string director;
@@ -55,50 +50,6 @@ namespace Domain {
 	        string guest;
 	        int episodeNumber;
 	        string language;
-        }
-
-        class App {
-	        string version;
-	        string publisher;
-	        string supportedPlatforms;
-	        int fileSize;
-        }
-
-        class VideoGame {
-	        string genre;
-	        string publisher;
-	        int releaseYear;
-	        string supportedPlatforms;
-        }
-
-        class Song {
-	        string composer;
-	        string singer;
-	        string genre;
-	        string fileType;
-	        int duration;
-	        string language;
-	        string releaseYear;
-        }
-
-        class User {
-	        int id;
-	        string firstname;
-	        string lastname;
-	        string cpr;
-	        string username;
-	        string password;
-        }
-
-        class Borrower {
-        }
-
-        class Employee {
-	        bool can_add;
-            bool can_remove;
-        }
-
-        class Admin {
         }
 
 	}
