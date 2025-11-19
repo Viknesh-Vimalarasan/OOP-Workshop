@@ -1423,9 +1423,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\OOP-Workshop\\src\\MyApp.csproj",
-      "projectName": "MyApp",
-      "projectPath": "C:\\Github\\OOP-Workshop\\src\\MyApp.csproj",
+      "projectUniqueName": "C:\\Github\\OOP-Workshop\\src\\workshop.csproj",
+      "projectName": "workshop",
+      "projectPath": "C:\\Github\\OOP-Workshop\\src\\workshop.csproj",
       "packagesPath": "C:\\Users\\magnu\\.nuget\\packages\\",
       "outputPath": "C:\\Github\\OOP-Workshop\\src\\obj\\",
       "projectStyle": "PackageReference",
